@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../components/buttons/button';
+import Button from '../../components/buttons/Button';
 import { Link } from 'react-router-dom'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
