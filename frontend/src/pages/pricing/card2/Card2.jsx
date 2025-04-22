@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../../components/buttons/button';
+import Button from '../../../components/buttons/Button';
 import './card2.css';
 
 const Card2 = ({ img, heading, para, price, sem }) => {

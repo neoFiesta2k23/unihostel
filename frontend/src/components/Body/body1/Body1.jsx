@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Button from "../../buttons/button";
+import Button from "../../buttons/Button";
 import "./Body1.css";
-import "../body2/body2";
+// import "../body2/body2";
 
 const Body1 = () => {
   return (
