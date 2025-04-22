@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
 import { Router, Routes, Route } from "react-router-dom";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
