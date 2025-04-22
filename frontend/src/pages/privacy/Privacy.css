@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #e0f7ff, #ffffff);
+    min-height: 90vh;
+  }
+  
+  
+  .privacy-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+  
+  .privacy-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  
+  .effective-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding-left: 30px;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    padding-left:20px;
+    padding-bottom: 10px;
+  }
+  

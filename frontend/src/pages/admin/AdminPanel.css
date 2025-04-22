@@ -1,0 +1,171 @@
+/* General Container */
+.admin-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Headings */
+.admin-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.admin-container h2 {
+  color: #34495e;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #2980b9;
+}
+
+/* Sections */
+.section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #dfe6e9;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #f0f9ff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Form Elements */
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Edit Form */
+.edit-form {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 2px dashed #ccc;
+  background-color: #fdfefe;
+  border-radius: 12px;
+}
+
+/* Contact Messages */
+.contact-inbox {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1px solid #dfe6e9;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/* Contact Card */
+.contact-card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  border-left: 4px solid #3498db;
+}
+
+/* Reply Button */
+.reply-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.reply-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section {
+    padding: 1rem;
+  }
+}
