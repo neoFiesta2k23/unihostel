@@ -5,7 +5,7 @@ import Overview from "../dashboard/overview/Overview";
 import RoomDetails from "./room/RoomDetails";
 import Payments from "../dashboard/payments/Payments";
 import Services from "../dashboard/services/Services";
-import Profile from "../dashboard/Profile/Profile";
+import Profile from "../dashboard/profile/Profile";
 import Complaints from "../dashboard/complaints/Complaints";
 import HostelForm from "./forms/HostelForm";
 import axiosInstance from "../../utils/axiosInstance";
